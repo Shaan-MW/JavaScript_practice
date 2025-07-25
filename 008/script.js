@@ -23,3 +23,14 @@ function getNames(element){
 
 console.log(names);
 console.log(largeNames);
+
+//searching under 18
+let agesOfUsers = [17,17,16,18,19,43,23];
+let underAge = agesOfUsers.filter(filterAge);
+
+function filterAge(element){
+    return element<=18;
+}
+
+console.log(agesOfUsers);
+console.log(underAge);
