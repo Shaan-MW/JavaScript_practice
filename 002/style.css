@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(170, 166, 166);
+    gap: 5px;
+}
+
+.container .first-box{
+    background-color: #1a1a1a;
+    flex: 1;
+}
+
+.container .second-box{
+    background-color: #111111;
+    flex: 2;
+    display: flex;
+    gap: 5px;
+}
+
+.container .second-box .box{
+    background-color: #1a1a1a;
+    flex: 1;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        height: 400px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:550px){
+    .container{
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .container .second-box{
+        flex-direction: column;
+    }
+}
