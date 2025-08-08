@@ -1,0 +1,10 @@
+{
+    "name":"Shaan Madhiwanan",
+    "age":22,
+    "isStudent":true,
+    "Skills":["Java", "Javascript","Mysql"],
+    "Address":{
+        "City":"Colombo",
+        "Country":"Sri Lanka"
+    }
+}
