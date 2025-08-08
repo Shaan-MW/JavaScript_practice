@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+button{
+    font-size: 4.2rem;
+    padding: 10px;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+}
+
+.clicked{
+    background-color: #280000;
+}
